@@ -29,3 +29,9 @@ body {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+.info {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
