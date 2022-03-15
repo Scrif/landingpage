@@ -51,6 +51,16 @@ body {
     color: #1F2937;
 }
 
+.card {
+    display: flex;
+    
+}
+
+.cardimg {
+    height: 200px;
+    width: 200px;
+}
+
 #logo {
     width: 150px;
     height: 75px;
