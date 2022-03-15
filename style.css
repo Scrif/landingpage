@@ -8,7 +8,7 @@ body {
     background: #1F2937;
     justify-content: space-between;
     align-items: center;
-
+    color: #E5E7EB;
 }
 
 .footer {
@@ -16,7 +16,8 @@ body {
 }
 
 .hero {
-
+    display: flex;
+    padding: 32px;
 }
 
 .hero, .footer {
@@ -49,5 +50,11 @@ ul {
     list-style: none;
     display: flex;
     gap: 8px;
+    padding: 8px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
     color: #E5E7EB;
 }
