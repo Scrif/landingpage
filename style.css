@@ -18,6 +18,7 @@ body {
 .hero {
     display: flex;
     padding: 32px;
+    height: 400px;
 }
 
 .hero, .footer {
@@ -35,6 +36,15 @@ body {
     color: #E5E7EB;
 }
 
+.heroright {
+    display: flex;
+}
+
+.heroleft {
+    display: flex;
+    flex-direction: column;
+}
+
 .info {
     font-size: 36px;
     font-weight: extra-bold;
@@ -44,6 +54,10 @@ body {
 #logo {
     width: 150px;
     height: 75px;
+}
+
+#hero {
+    display: flex;
 }
 
 ul {
