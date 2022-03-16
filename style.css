@@ -49,16 +49,22 @@ body {
     font-size: 36px;
     font-weight: extra-bold;
     color: #1F2937;
+    display: flex;
+}
+
+.cardcontainer {
+    display: flex;
 }
 
 .card {
-    display: flex;
-    
 }
 
 .cardimg {
     height: 200px;
     width: 200px;
+    border-radius: 10px;
+    border-color: #3882F6;
+    border-width: 2px;
 }
 
 #logo {
