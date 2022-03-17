@@ -199,6 +199,10 @@ h3 {
 /* Footer */
 
 .footer {
-    color: #E5E7EB;
+    color: #FFFFFF;
     background-color: #1F2937;
+    display: flex;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
 }
