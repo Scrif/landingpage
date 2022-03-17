@@ -89,6 +89,8 @@ h1 {
     font-weight: bold;
 }
 
+/* CSS for the info section */
+
 .info {
     display: flex;
     flex-direction: column;
@@ -96,7 +98,7 @@ h1 {
     align-items: center;
 }
 
-.infoheader {
+h2 {
     font-size: 36px;
     font-weight: extra-bold;
     font-color: #1F2937;
