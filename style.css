@@ -46,10 +46,16 @@ body {
 }
 
 .info {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.infoheader {
     font-size: 36px;
     font-weight: extra-bold;
-    color: #1F2937;
-    display: flex;
+    font-color: #1F2937;
+    
 }
 
 .cardcontainer {
@@ -63,8 +69,9 @@ body {
     height: 200px;
     width: 200px;
     border-radius: 10px;
-    border-color: #3882F6;
     border-width: 2px;
+    border: solid;
+    border-color: #3882F6;
 }
 
 #logo {
