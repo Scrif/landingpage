@@ -6,12 +6,20 @@ body {
     text-align: center;
 }
 
+/* navigation */
+
 .navbar {
     display: flex;
     background: #1F2937;
-    justify-content: space-between;
+    padding: 20px 0px 20px 100px;
     align-items: center;
-    color: #E5E7EB;
+    color: #F9FAF8;
+}
+
+.logo img {
+    width: 150px;
+    height: 75px;
+    margin-right: auto;
 }
 
 .footer {
@@ -86,10 +94,6 @@ body {
     border-color: #3882F6;
 }
 
-#logo {
-    width: 150px;
-    height: 75px;
-}
 
 #hero {
     display: flex;
