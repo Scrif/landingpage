@@ -135,6 +135,12 @@ h2 {
     background-color: #E5E7EB;
 }
 
+.quotebody {
+    font-size: 36px;
+    font-style: light-italic;
+    color: #1F2937;
+}
+
 /* CTA */
 
 .signup {
