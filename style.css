@@ -150,7 +150,7 @@ h2 {
 
 /* CTA */
 
-.signup {
+.CTA {
     background-color: #3882F6;
     color:#F9FAF8;
     width: 100px;
@@ -160,6 +160,18 @@ h2 {
     padding: 5px;
     margin: 50px 200px;
     border-radius: 10px;
+}
+
+.CTAleft {
+    flex: 1;
+}
+
+.CTAright {
+    flex: 1;
+}
+
+.CTAleft p {
+    
 }
 
 /* Footer */
