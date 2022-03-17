@@ -35,19 +35,20 @@ body {
     padding: 5px;
 }
 
+/* Hero Section Styling */
+
 .footer {
     color: #E5E7EB;
-}
-
-.body {
-    display: flex;
-    flex-direction: column;
 }
 
 .hero {
     display: flex;
     padding: 32px;
     height: 400px;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero, .footer {
