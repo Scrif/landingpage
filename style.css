@@ -8,6 +8,11 @@ body {
     text-align: center;
 }
 
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
 /* navigation */
 
 .navbar {
@@ -150,10 +155,9 @@ h2 {
 
 /* CTA */
 
-.CTA {
+.CTAbox {
     background-color: #3882F6;
     color:#F9FAF8;
-    width: 100px;
     border-radius: 5px;
     display: flex;
     align-content: center;
@@ -162,16 +166,31 @@ h2 {
     border-radius: 10px;
 }
 
-.CTAleft {
+.CTA {
     flex: 1;
 }
 
-.CTAright {
-    flex: 1;
+.cta-text {
+    text-align: left;
 }
 
-.CTAleft p {
-    
+h3 {
+   margin: 20px 0px 0px 30px;
+   padding: 0;
+   color: #F9FAF8;
+}
+
+.cta-text p {
+    margin: 0px;
+    margin: 0px 20px 20px 50px;
+    color: #F9FAF8;
+}
+
+.cta-button button {
+    background-color: #3882F6;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #FFFFFF;
 }
 
 /* Footer */
