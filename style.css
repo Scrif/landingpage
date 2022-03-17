@@ -127,9 +127,16 @@ h2 {
     margin: 0px 15px 0px 15px;
 }
 
-.footer {
-    color: #E5E7EB;
+/* Quote Box */
+
+.quotebar {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
 }
+
+/* CTA */
+
 .signup {
     background-color: #3882F6;
     color:#F9FAF8;
@@ -140,4 +147,10 @@ h2 {
     justify-content: center;
     padding: 5px;
     margin-top: 10px;
+}
+
+/* Footer */
+
+.footer {
+    color: #E5E7EB;
 }
