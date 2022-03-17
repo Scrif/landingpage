@@ -1,6 +1,9 @@
 body {
     font-family: Roboto, 'Segoe UI', Oxygen, Ubuntu, Cantarell, Sans-Serif;
-
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    text-align: center;
 }
 
 .header {
@@ -13,6 +16,11 @@ body {
 
 .footer {
     color: #E5E7EB;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
 }
 
 .hero {
