@@ -24,30 +24,29 @@ body {
 }
 
 .logo img {
-    width: 150px;
-    height: 75px;
+    width: 170px;
+    height: 85px;
     margin-right: auto;
 }
 
 .navbar-links {
     display: flex;
     margin-left: auto;
-    padding: 0px 70px 0px 0px;
+    padding: 0px 100px 0px 0px;
 }
 
 .navbar-links a {
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
-    padding: 5px;
+    padding: 10px;
 }
 
 /* Hero Section Styling */
 
 .hero {
     display: flex;
-    padding: 32px;
-    height: 400px;
+    padding: 90px;
     color: #F9FAF8;
     background-color: #1F2937;
     align-items: center;
@@ -60,7 +59,7 @@ body {
 
 .heroright img {
     width: 500px;
-    height: 300px
+    height: 350px;
 }
 
 .heroleft {
@@ -68,7 +67,7 @@ body {
     flex-direction: column;
     flex-basis: 400px;
     text-align: left;
-    margin-right: 0px;
+    margin-right: 40px;
 }
 
 .heroleft p {
@@ -85,21 +84,20 @@ h1 {
 
 .heroleft button {
     text-align: center;
-    width: 150px;
+    width: 100px;
     border: none;
     border-radius: 10px;
     background: #3882F6;
     color: #F9FAF8;
     text-decoration: none;
     font-weight: bold;
+    display: block;
+    padding: 10px;
 }
 
 /* CSS for the info section */
 
 .info {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
     align-items: center;
 }
 
@@ -129,7 +127,8 @@ h2 {
     border-width: 4px;
     border: solid;
     border-color: #3882F6;
-    margin: 0px 15px 0px 15px;
+    margin: 5px 20px 0px 20px;
+    object-fit: cover;
 }
 
 /* Quote Box */
