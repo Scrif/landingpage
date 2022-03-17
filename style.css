@@ -1,3 +1,5 @@
+/* General Settings for body content */
+
 body {
     font-family: Roboto, 'Segoe UI', Oxygen, Ubuntu, Cantarell, Sans-Serif;
     background-color: #FFFFFF;
@@ -37,9 +39,7 @@ body {
 
 /* Hero Section Styling */
 
-.footer {
-    color: #E5E7EB;
-}
+
 
 .hero {
     display: flex;
@@ -123,6 +123,9 @@ h1 {
     border-color: #3882F6;
 }
 
+.footer {
+    color: #E5E7EB;
+}
 .signup {
     background-color: #3882F6;
     color:#F9FAF8;
