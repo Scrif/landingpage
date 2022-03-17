@@ -157,9 +157,9 @@ h2 {
     border-radius: 5px;
     display: flex;
     align-content: center;
-    justify-content: center;
     padding: 5px;
-    margin-top: 10px;
+    margin-top: 50px 200px;
+    border-radius: 10px;
 }
 
 /* Footer */
