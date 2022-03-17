@@ -137,8 +137,14 @@ h2 {
 
 .quotebody {
     font-size: 36px;
-    font-style: light-italic;
+    font-weight: light;
+    font-style: italic;
     color: #1F2937;
+}
+
+.quotebar p {
+    text-align: right;
+
 }
 
 /* CTA */
