@@ -23,7 +23,16 @@ body {
 }
 
 .navbar-links {
-    
+    display: flex;
+    margin-left: auto;
+    padding: 0px 70px 0px 0px;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size 18px;
+    padding: 5px;
 }
 
 .footer {
@@ -101,19 +110,6 @@ body {
 
 #hero {
     display: flex;
-}
-
-ul {
-    list-style: none;
-    display: flex;
-    gap: 8px;
-    padding: 8px;
-    text-decoration: none;
-}
-
-a {
-    text-decoration: none;
-    color: #E5E7EB;
 }
 
 .signup {
