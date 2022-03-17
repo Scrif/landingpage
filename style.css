@@ -31,7 +31,7 @@ body {
 .navbar-links a {
     text-decoration: none;
     color: #E5E7EB;
-    font-size 18px;
+    font-size: 18px;
     padding: 5px;
 }
 
@@ -59,7 +59,10 @@ body {
     display: flex;
 }
 
-
+.heroright img {
+    width: 400px;
+    height: 300px
+}
 
 .heroleft {
     display: flex;
