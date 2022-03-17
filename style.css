@@ -101,7 +101,7 @@ h1 {
 h2 {
     font-size: 36px;
     font-weight: extra-bold;
-    font-color: #1F2937;
+    color: #1F2937;
 }
 
 .cardcontainer {
@@ -133,6 +133,7 @@ h2 {
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
+    padding: 0 150px;
 }
 
 .quotebody {
@@ -144,7 +145,7 @@ h2 {
 
 .quotebar p {
     text-align: right;
-
+    padding-right: 20px;
 }
 
 /* CTA */
